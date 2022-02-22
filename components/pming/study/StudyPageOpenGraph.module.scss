@@ -1,0 +1,77 @@
+@import "./meta.scss";
+
+.container {
+  position: relative;
+
+  .main_wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: $primary-dark;
+
+    padding: 3.5rem;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .top_wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .label {
+        font-size: 1.8rem;
+        font-family: bold;
+        color: $gray400;
+      }
+      .title {
+        font-family: bold;
+        font-size: 4rem;
+        line-height: 1;
+        margin-bottom: 25px;
+      }
+      .descript {
+        color: $primary;
+        font-size: 1.8rem;
+        font-family: medium;
+      }
+    }
+
+    .bottom_wrapper {
+      display: flex;
+      gap: 50px;
+
+      .mentor_img_wrapper {
+        img {
+          width: 128px;
+          height: 128px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+
+      .mentor_info_wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 10px;
+        .label {
+          font-size: 1.6rem;
+          font-family: medium;
+          color: $gray200;
+        }
+        .mentor_name {
+          font-size: 2rem;
+          font-family: bold;
+        }
+      }
+    }
+
+    .brand_logo_wrapper {
+      position: absolute;
+      bottom: 40px;
+      right: 60px;
+    }
+  }
+}
