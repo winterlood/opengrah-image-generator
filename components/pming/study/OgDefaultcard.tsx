@@ -15,7 +15,7 @@ import pming_box_logo from "public/img/pming/pming_logo.png";
 type Props = pming_study_types.StudyQuery;
 // COMPONENT
 
-const DefaultCard = (props: Props) => {
+const OgDefaultCard = (props: Props) => {
   const { type } = props;
   const data = {
     label: type === "post" ? "프밍 포스트" : "프밍 스터디",
@@ -60,4 +60,4 @@ const DefaultCard = (props: Props) => {
   );
 };
 
-export default DefaultCard;
+export default OgDefaultCard;

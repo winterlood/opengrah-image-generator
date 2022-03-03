@@ -1,15 +1,14 @@
 import { pming_study_types } from "global";
 import { useRouter } from "next/router";
 import React from "react";
-import DefaultCard from "components/pming/study/DefaultCard";
+import OgDefaultCard from "components/pming/study/OgDefaultcard";
 
 interface Props {}
 
 const Index = (props: Props) => {
   const router = useRouter();
-
   return (
-    <DefaultCard
+    <OgDefaultCard
       {...(router.query as unknown as pming_study_types.StudyQuery)}
     />
   );
