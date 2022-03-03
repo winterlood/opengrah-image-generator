@@ -1,5 +1,3 @@
-// import { Chromium } from "playwright";
-
 import Chromium from "chrome-aws-lambda";
 
 async function getBrowserInstance() {

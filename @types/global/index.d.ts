@@ -30,8 +30,9 @@ declare module "global" {
     interface PostPageQuery {
       type: "post";
       title: string;
-      lecture_thumbnail_url: string;
+      study_name: string;
       mentor_profile_image: string;
+      mentor_name: string;
     }
     type StudyQuery = StudyPageQuery | PostPageQuery;
   }
