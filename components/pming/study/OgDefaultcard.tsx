@@ -2,7 +2,7 @@ import OpenGraphLayout from "components/common/OpenGraphLayout";
 import { pming_study_types } from "global";
 import Image from "next/image";
 import React from "react";
-import style from "./DefaultCard.module.scss";
+import style from "./OgDefaultCard.module.scss";
 import pming_box_logo from "public/img/pming/pming_logo.png";
 // ANTD
 
